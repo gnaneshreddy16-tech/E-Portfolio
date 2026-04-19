@@ -1,0 +1,8 @@
+.quarto/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+*.egg-info/
+.ipynb_checkpoints/
