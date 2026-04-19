@@ -1,0 +1,26 @@
+---
+title: "Contact & References"
+---
+
+## Get in Touch
+
+I am always open to discussing data analytics, graduate opportunities, or project collaborations. The best way to reach me is by email.
+
+| Method | Details |
+|---|---|
+| {{< fa envelope >}} Email | [gnanesh.reddy2@mail.dcu.ie](mailto:gnanesh.reddy2@mail.dcu.ie) |
+| {{< fa brands linkedin >}} LinkedIn | [linkedin.com/in/gnaneshreddy16](https://www.linkedin.com/in/gnaneshreddy16){target="_blank"} |
+| {{< fa brands github >}} GitHub | [github.com/gnaneshreddy16-tech](https://github.com/gnaneshreddy16-tech){target="_blank"} |
+| {{< fa location-dot >}} Location | Dublin, Ireland |
+
+::: {.callout-note}
+I typically respond to emails within 24–48 hours.
+:::
+
+## Professional References
+
+References are available upon request. Please contact me directly via email and I will provide details relevant to the role or context.
+
+---
+
+*This portfolio was built with [Quarto](https://quarto.org), managed with Git, and published via GitHub Pages.*

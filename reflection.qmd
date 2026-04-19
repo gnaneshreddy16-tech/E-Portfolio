@@ -1,0 +1,53 @@
+---
+title: "Reflection"
+---
+
+## Module Reflection
+
+This module pushed me into unfamiliar technical territory — and that discomfort turned out to be exactly what I needed.
+
+## Git and Version Control
+
+Git was the skill I underestimated most. In the beginning, I treated it as a backup tool — something you use when a project is finished. That mindset fell apart quickly. My first few commits were bulk uploads with vague messages like "added files", which meant the history was useless. Once I started committing incrementally — one logical change at a time, with a message that explained *why*, not just *what* — the repository became genuinely readable.
+
+The discipline of writing good commit messages is surprisingly hard. It forces you to think clearly about what you are actually changing and why. That is a thinking skill, not just a Git skill.
+
+::: {.callout-important}
+## Biggest Early Mistake
+I accidentally staged my entire `docs/` folder before understanding that it should only contain rendered output. Cleaning that up taught me more about `.gitignore` than any tutorial did.
+:::
+
+## Quarto
+
+Quarto's separation of content and configuration was initially confusing. The `_quarto.yml` file controls so much — navbar, theme, output directory, footer — and a single indentation error breaks the whole build. I spent more time than I'd like to admit debugging YAML whitespace.
+
+Once it clicked, though, the power was obvious. Writing in Markdown with executable Python chunks means analysis and presentation live in the same file. There is no copying charts into slides, no broken links between a script and a report. Everything renders together, reproducibly.
+
+## Python for Data Analysis
+
+My Python background was functional but shallow before this module. Working with `pandas` for financial data — cleaning, resampling, computing rolling averages — required me to understand the data structures properly, not just copy patterns.
+
+Plotly was a genuine step up from static charts. Interactivity changes how you explore data. A chart you can zoom into and hover over reveals things a static PNG hides.
+
+## Web Design and SCSS
+
+I had never written SCSS before. The `scss:defaults` and `scss:rules` sections required understanding how Sass variables cascade into Bootstrap's theming system. Getting the navbar colour to actually change — not just appear to change — required reading how `$navbar-bg` feeds into the compiled CSS.
+
+## What I Would Do Differently
+
+If I were starting over, I would set up the `.gitignore`, `.nojekyll`, and `_quarto.yml` properly on day one before writing a single page. Retrofitting configuration onto an existing structure wastes time and creates messy commits.
+
+I would also start the Python projects earlier. Debugging `plotly` rendering inside Quarto took longer than expected because the output depends on the execution environment being configured correctly.
+
+## Looking Forward
+
+These skills connect directly to what I want to do professionally. A business analyst who can version-control their work, publish reproducible analyses, and present interactive visualisations is significantly more capable than one who emails Excel files. This portfolio is the beginning of that professional presence — something I intend to keep building long after this module ends.
+
+```{mermaid}
+flowchart LR
+  A[Raw Data] --> B[Python & pandas]
+  B --> C[Exploratory Analysis]
+  C --> D[Plotly Visualisation]
+  D --> E[Quarto Report]
+  E --> F[GitHub Pages]
+```
