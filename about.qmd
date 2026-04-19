@@ -1,0 +1,41 @@
+---
+title: "About Me"
+---
+
+## Background
+
+I am Gnanesh Reddy, a postgraduate student pursuing an **MSc in Business Analytics** at Dublin City University, Ireland. My academic journey began with a strong foundation in business and quantitative methods, and has since evolved into a focused specialisation in data-driven decision making.
+
+Before joining DCU, I developed an interest in how organisations use data to gain competitive advantage — particularly in financial markets and retail operations. That curiosity is what drives my work today.
+
+## Skills
+
+| Category | Tools & Technologies |
+|---|---|
+| Programming | Python (pandas, NumPy, Plotly, scikit-learn) |
+| Data & Databases | SQL, Excel, Google Sheets |
+| Visualisation | Plotly, Matplotlib, Power BI |
+| Version Control | Git, GitHub |
+| Web & Publishing | Quarto, HTML, CSS, SCSS |
+| Analytics | Forecasting, EDA, Statistical Modelling |
+
+## Education
+
+**MSc Business Analytics**
+Dublin City University · 2024–2025
+
+**Bachelor's Degree**
+[Your undergraduate degree and institution here]
+
+## Goals
+
+My immediate goal is to apply my analytical skills in a graduate data analyst or business intelligence role, where I can contribute to decision-making through rigorous data analysis. Longer term, I aim to work in financial analytics or strategy consulting, using data to inform high-stakes business decisions.
+
+::: {.callout-tip}
+## Fun Fact
+I find financial markets fascinating — not just for the numbers, but for what they reveal about human behaviour and collective decision-making.
+:::
+
+## Outside of Work
+
+When I'm not working with data, I enjoy following financial markets, reading about macroeconomics, and exploring Dublin.
