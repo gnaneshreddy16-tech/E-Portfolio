@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Gnanesh Reddy"
+  favicon: images/favicon.png
+  navbar:
+    logo: images/logo.png
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Reflection"
+        href: reflection.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - text: "CV"
+        href: cv/cv.pdf
+        target: _blank
+      - icon: github
+        href: https://github.com/gnaneshreddy16-tech
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/gnaneshreddy16
+        target: _blank
+  page-footer:
+    left: "© 2025 Gnanesh Reddy"
+    center: "MSc Business Analytics · Dublin City University"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - flatly
+      - styles.scss
+    toc: true
+    code-fold: true
+    code-tools: true
+    highlight-style: github
+    fig-responsive: true
