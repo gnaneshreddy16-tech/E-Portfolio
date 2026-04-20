@@ -23,17 +23,21 @@ about:
 
 I am Gnanesh Reddy, a Business Analytics postgraduate student at **Dublin City University**, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Quarto](https://img.shields.io/badge/Quarto-75AADB?style=flat&logo=quarto&logoColor=white)
+```{=html}
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" alt="Plotly">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
+<img src="https://img.shields.io/badge/Quarto-75AADB?style=flat&logo=quarto&logoColor=white" alt="Quarto">
+</p>
+```
 
 ---
 
 ::: {.panel-tabset}
 
-## {{< fa briefcase >}} For Recruiters
+## For Recruiters
 
 I am immediately available for **data analyst** and **business intelligence** roles. My projects demonstrate hands-on experience with Python, financial modelling, and interactive data visualisation.
 
@@ -48,10 +52,10 @@ I am immediately available for **data analyst** and **business intelligence** ro
 | Version Control | Full Git history with descriptive commits |
 | Communication | This portfolio — built from scratch with Quarto |
 
-[{{< fa file-pdf >}} Download CV](cv/cv.pdf){target="_blank" .btn .btn-primary}
-[{{< fa chart-bar >}} View Projects](projects/index.qmd){.btn .btn-outline-secondary}
+[Download CV](cv/cv.pdf){target="_blank" .btn .btn-primary}
+[View Projects](projects/index.qmd){.btn .btn-outline-secondary}
 
-## {{< fa graduation-cap >}} For Academic Readers
+## For Academic Readers
 
 This portfolio documents my MSc journey at Dublin City University, covering technical skill development in Python, Git, Quarto, and statistical analysis. It serves as both a learning record and a professional showcase.
 
@@ -62,8 +66,8 @@ This portfolio documents my MSc journey at Dublin City University, covering tech
 - Web publishing via GitHub Pages with custom SCSS theming
 - Critical reflection on skill development and professional growth
 
-[{{< fa book-open >}} Read Reflection](reflection.qmd){.btn .btn-primary}
-[{{< fa info-circle >}} About Me](about.qmd){.btn .btn-outline-secondary}
+[Read Reflection](reflection.qmd){.btn .btn-primary}
+[About Me](about.qmd){.btn .btn-outline-secondary}
 
 :::
 

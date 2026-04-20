@@ -1,5 +1,8 @@
 ---
 title: "About Me"
+format:
+  html:
+    raw-html: true
 ---
 
 ## Background
@@ -21,46 +24,52 @@ Before joining DCU, I developed an interest in how organisations use data to gai
 
 ## Proficiency
 
-::: {.skill-bars}
-<div style="margin-bottom:1rem">
-  <strong>Python & pandas</strong>
-  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
-    <div style="background:#2980b9;width:85%;height:12px;border-radius:8px"></div>
+```{=html}
+<div style="margin-bottom:1.2rem">
+  <strong>Python &amp; pandas</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:14px;margin-top:6px">
+    <div style="background:#2980b9;width:85%;height:14px;border-radius:8px"></div>
   </div>
 </div>
-<div style="margin-bottom:1rem">
+<div style="margin-bottom:1.2rem">
   <strong>Data Visualisation (Plotly)</strong>
-  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
-    <div style="background:#2980b9;width:80%;height:12px;border-radius:8px"></div>
+  <div style="background:#e9ecef;border-radius:8px;height:14px;margin-top:6px">
+    <div style="background:#2980b9;width:80%;height:14px;border-radius:8px"></div>
   </div>
 </div>
-<div style="margin-bottom:1rem">
+<div style="margin-bottom:1.2rem">
   <strong>SQL</strong>
-  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
-    <div style="background:#2980b9;width:75%;height:12px;border-radius:8px"></div>
+  <div style="background:#e9ecef;border-radius:8px;height:14px;margin-top:6px">
+    <div style="background:#2980b9;width:75%;height:14px;border-radius:8px"></div>
   </div>
 </div>
-<div style="margin-bottom:1rem">
-  <strong>Git & Version Control</strong>
-  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
-    <div style="background:#2980b9;width:78%;height:12px;border-radius:8px"></div>
+<div style="margin-bottom:1.2rem">
+  <strong>Git &amp; Version Control</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:14px;margin-top:6px">
+    <div style="background:#2980b9;width:78%;height:14px;border-radius:8px"></div>
   </div>
 </div>
-<div style="margin-bottom:1rem">
+<div style="margin-bottom:1.2rem">
   <strong>Business Intelligence</strong>
-  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
-    <div style="background:#2980b9;width:82%;height:12px;border-radius:8px"></div>
+  <div style="background:#e9ecef;border-radius:8px;height:14px;margin-top:6px">
+    <div style="background:#2980b9;width:82%;height:14px;border-radius:8px"></div>
   </div>
 </div>
-:::
+<div style="margin-bottom:1.2rem">
+  <strong>Cloud &amp; DevOps</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:14px;margin-top:6px">
+    <div style="background:#2980b9;width:70%;height:14px;border-radius:8px"></div>
+  </div>
+</div>
+```
 
 ## Education
 
 **MSc Business Analytics**
-Dublin City University · 2024–2025
+Dublin City University · 2025–Present
 
 **Bachelor's Degree**
-[Your undergraduate degree and institution here]
+[Your undergraduate degree and institution here] · 2021–2024
 
 ## My Journey
 
@@ -69,11 +78,10 @@ timeline
     title Academic & Professional Journey
     2021 : Started Bachelor's Degree
          : Built foundation in Business
-    2023 : Graduated with Bachelor's Degree
-         : Began exploring data analytics
-    2024 : Joined DCU — MSc Business Analytics
-         : Started learning Python and Git
-    2025 : Built this ePortfolio
+    2024 : Graduated with Bachelor's Degree
+         : Began learning DevOps and Cloud concepts
+    2025 : Joined DCU — MSc Business Analytics
+         : Building data analytics and Python skills
          : Seeking graduate roles in Ireland
 ```
 
