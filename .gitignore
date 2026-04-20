@@ -6,3 +6,6 @@ Thumbs.db
 .env
 *.egg-info/
 .ipynb_checkpoints/
+
+/.quarto/
+**/*.quarto_ipynb
