@@ -121,30 +121,9 @@
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
-    "title": "Gnanesh Reddy",
+    "title": "Projects",
     "section": "",
-    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
-  },
-  {
-    "objectID": "projects/index.html#welcome",
-    "href": "projects/index.html#welcome",
-    "title": "Gnanesh Reddy",
-    "section": "",
-    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
-  },
-  {
-    "objectID": "projects/index.html#what-i-do",
-    "href": "projects/index.html#what-i-do",
-    "title": "Gnanesh Reddy",
-    "section": "What I Do",
-    "text": "What I Do\nI work with Python, SQL, and data visualisation tools to analyse complex datasets — from stock market trends to sales performance — and present findings that drive real decisions."
-  },
-  {
-    "objectID": "projects/index.html#currently",
-    "href": "projects/index.html#currently",
-    "title": "Gnanesh Reddy",
-    "section": "Currently",
-    "text": "Currently\n\n📚 MSc Business Analytics — Dublin City University\n📊 Building data pipelines and interactive dashboards\n🔍 Exploring financial analytics and forecasting models\n\n\n\n\n\n\n\nNoteOpen to Opportunities\n\n\n\nI am actively looking for data analyst and business intelligence roles. Feel free to reach out."
+    "text": "A selection of data analytics projects completed during my MSc in Business Analytics at Dublin City University. Each project uses real or realistic datasets with executable Python code and interactive visualisations.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStock Market Trend Analysis\n\n\n\nPython\n\nFinance\n\nPlotly\n\nEDA\n\n\n\nExploratory analysis of S&P 500 sector performance using Python, with rolling averages, volatility metrics, and interactive Plotly visualisations.\n\n\n\nMar 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSales Revenue Analysis\n\n\n\nPython\n\nBusiness Analytics\n\nForecasting\n\nPlotly\n\n\n\nEnd-to-end sales performance analysis for a simulated retail business, covering revenue trends, product category breakdown, regional performance, and forecasting using…\n\n\n\nFeb 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustomer Segmentation Analysis\n\n\n\nPython\n\nMachine Learning\n\nClustering\n\nMarketing\n\n\n\nK-means clustering applied to retail customer data to identify distinct behavioural segments for targeted marketing strategy.\n\n\n\nJan 15, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact.html",
