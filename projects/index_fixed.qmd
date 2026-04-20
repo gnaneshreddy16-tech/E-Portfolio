@@ -1,0 +1,13 @@
+---
+title: "Projects"
+listing:
+  contents: list
+  type: grid
+  fields: [image, title, description, categories, date]
+  categories: true
+  sort: "date desc"
+  grid-columns: 2
+  image-placeholder: ../images/project1-cover.jpg
+---
+
+A selection of data analytics projects completed during my MSc in Business Analytics at Dublin City University. Each project uses real or realistic datasets with executable Python code and interactive visualisations.
