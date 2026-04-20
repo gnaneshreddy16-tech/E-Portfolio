@@ -77,3 +77,5 @@ This portfolio documents my MSc journey at Dublin City University, covering tech
 ## Currently Open to Opportunities
 I am actively looking for data analyst and business intelligence roles in Ireland. Feel free to [get in touch](contact.qmd).
 :::
+
+
