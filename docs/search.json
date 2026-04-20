@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "This module pushed me into unfamiliar technical territory — and that discomfort turned out to be exactly what I needed."
+  },
+  {
+    "objectID": "reflection.html#module-reflection",
+    "href": "reflection.html#module-reflection",
+    "title": "Reflection",
+    "section": "",
+    "text": "This module pushed me into unfamiliar technical territory — and that discomfort turned out to be exactly what I needed."
+  },
+  {
+    "objectID": "reflection.html#git-and-version-control",
+    "href": "reflection.html#git-and-version-control",
+    "title": "Reflection",
+    "section": "Git and Version Control",
+    "text": "Git and Version Control\nGit was the skill I underestimated most. In the beginning, I treated it as a backup tool — something you use when a project is finished. That mindset fell apart quickly. My first few commits were bulk uploads with vague messages like “added files”, which meant the history was useless. Once I started committing incrementally — one logical change at a time, with a message that explained why, not just what — the repository became genuinely readable.\nThe discipline of writing good commit messages is surprisingly hard. It forces you to think clearly about what you are actually changing and why. That is a thinking skill, not just a Git skill.\n\n\n\n\n\n\nImportantBiggest Early Mistake\n\n\n\nI accidentally staged my entire docs/ folder before understanding that it should only contain rendered output. Cleaning that up taught me more about .gitignore than any tutorial did."
+  },
+  {
+    "objectID": "reflection.html#quarto",
+    "href": "reflection.html#quarto",
+    "title": "Reflection",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto’s separation of content and configuration was initially confusing. The _quarto.yml file controls so much — navbar, theme, output directory, footer — and a single indentation error breaks the whole build. I spent more time than I’d like to admit debugging YAML whitespace.\nOnce it clicked, though, the power was obvious. Writing in Markdown with executable Python chunks means analysis and presentation live in the same file. There is no copying charts into slides, no broken links between a script and a report. Everything renders together, reproducibly."
+  },
+  {
+    "objectID": "reflection.html#python-for-data-analysis",
+    "href": "reflection.html#python-for-data-analysis",
+    "title": "Reflection",
+    "section": "Python for Data Analysis",
+    "text": "Python for Data Analysis\nMy Python background was functional but shallow before this module. Working with pandas for financial data — cleaning, resampling, computing rolling averages — required me to understand the data structures properly, not just copy patterns.\nPlotly was a genuine step up from static charts. Interactivity changes how you explore data. A chart you can zoom into and hover over reveals things a static PNG hides."
+  },
+  {
+    "objectID": "reflection.html#web-design-and-scss",
+    "href": "reflection.html#web-design-and-scss",
+    "title": "Reflection",
+    "section": "Web Design and SCSS",
+    "text": "Web Design and SCSS\nI had never written SCSS before. The scss:defaults and scss:rules sections required understanding how Sass variables cascade into Bootstrap’s theming system. Getting the navbar colour to actually change — not just appear to change — required reading how $navbar-bg feeds into the compiled CSS."
+  },
+  {
+    "objectID": "reflection.html#what-i-would-do-differently",
+    "href": "reflection.html#what-i-would-do-differently",
+    "title": "Reflection",
+    "section": "What I Would Do Differently",
+    "text": "What I Would Do Differently\nIf I were starting over, I would set up the .gitignore, .nojekyll, and _quarto.yml properly on day one before writing a single page. Retrofitting configuration onto an existing structure wastes time and creates messy commits.\nI would also start the Python projects earlier. Debugging plotly rendering inside Quarto took longer than expected because the output depends on the execution environment being configured correctly."
+  },
+  {
+    "objectID": "reflection.html#looking-forward",
+    "href": "reflection.html#looking-forward",
+    "title": "Reflection",
+    "section": "Looking Forward",
+    "text": "Looking Forward\nThese skills connect directly to what I want to do professionally. A business analyst who can version-control their work, publish reproducible analyses, and present interactive visualisations is significantly more capable than one who emails Excel files. This portfolio is the beginning of that professional presence — something I intend to keep building long after this module ends.\n\n\n\n\n\nflowchart LR\n  A[Raw Data] --&gt; B[Python & pandas]\n  B --&gt; C[Exploratory Analysis]\n  C --&gt; D[Plotly Visualisation]\n  D --&gt; E[Quarto Report]\n  E --&gt; F[GitHub Pages]"
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html",
+    "href": "projects/list/sales-revenue-analysis.html",
+    "title": "Sales Revenue Analysis",
+    "section": "",
+    "text": "This project performs a full sales analytics workflow on a simulated retail dataset covering 12 months of transactions across four product categories and three regions. The analysis identifies top-performing segments, seasonal patterns, and provides a simple revenue forecast.\n\n\n\n\n\n\nNoteDataset\n\n\n\nSynthetically generated to reflect realistic retail sales distributions. The same analytical approach applies directly to real CRM or ERP exports."
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#overview",
+    "href": "projects/list/sales-revenue-analysis.html#overview",
+    "title": "Sales Revenue Analysis",
+    "section": "",
+    "text": "This project performs a full sales analytics workflow on a simulated retail dataset covering 12 months of transactions across four product categories and three regions. The analysis identifies top-performing segments, seasonal patterns, and provides a simple revenue forecast.\n\n\n\n\n\n\nNoteDataset\n\n\n\nSynthetically generated to reflect realistic retail sales distributions. The same analytical approach applies directly to real CRM or ERP exports."
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#data-generation",
+    "href": "projects/list/sales-revenue-analysis.html#data-generation",
+    "title": "Sales Revenue Analysis",
+    "section": "Data Generation",
+    "text": "Data Generation\n\n\nCode\nimport pandas as pd\nimport numpy as np\nimport plotly.express as px\nimport plotly.graph_objects as go\n\nnp.random.seed(7)\n\nmonths = pd.date_range(start='2024-01-01', periods=12, freq='MS')\ncategories = ['Electronics', 'Clothing', 'Home & Garden', 'Food & Beverage']\nregions = ['Dublin', 'Cork', 'Galway']\n\nrows = []\nfor month in months:\n    for cat in categories:\n        for region in regions:\n            base = {'Electronics': 45000, 'Clothing': 28000,\n                    'Home & Garden': 18000, 'Food & Beverage': 32000}[cat]\n            seasonal = 1 + 0.15 * np.sin((month.month - 3) * np.pi / 6)\n            noise = np.random.uniform(0.88, 1.12)\n            revenue = round(base * seasonal * noise, 2)\n            units = int(revenue / np.random.uniform(25, 85))\n            rows.append({\n                'Month': month,\n                'Category': cat,\n                'Region': region,\n                'Revenue': revenue,\n                'Units': units\n            })\n\ndf = pd.DataFrame(rows)\nprint(f\"Dataset: {len(df)} records\")\nprint(df.groupby('Category')['Revenue'].sum().sort_values(ascending=False).apply(lambda x: f\"€{x:,.0f}\"))\n\n\nDataset: 144 records\nCategory\nElectronics        €1,611,677\nFood & Beverage    €1,171,384\nClothing           €1,002,548\nHome & Garden        €651,303\nName: Revenue, dtype: str"
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#monthly-revenue-trend",
+    "href": "projects/list/sales-revenue-analysis.html#monthly-revenue-trend",
+    "title": "Sales Revenue Analysis",
+    "section": "Monthly Revenue Trend",
+    "text": "Monthly Revenue Trend\n\n\nCode\nmonthly = df.groupby('Month')['Revenue'].sum().reset_index()\n\nfig = px.bar(\n    monthly,\n    x='Month',\n    y='Revenue',\n    title='Total Monthly Revenue — 2024',\n    template='plotly_white',\n    color='Revenue',\n    color_continuous_scale='Blues',\n    text_auto='.2s'\n)\n\nfig.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18,\n    yaxis_tickprefix='€',\n    coloraxis_showscale=False,\n    xaxis_title='Month',\n    yaxis_title='Revenue (€)'\n)\n\nfig.show()\n\n\n                            \n                                            \nTotal monthly revenue across all categories and regions — clear seasonal uplift in summer months."
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#revenue-by-category",
+    "href": "projects/list/sales-revenue-analysis.html#revenue-by-category",
+    "title": "Sales Revenue Analysis",
+    "section": "Revenue by Category",
+    "text": "Revenue by Category\n\n\nCode\ncat_totals = df.groupby('Category')['Revenue'].sum().reset_index()\n\nfig2 = px.pie(\n    cat_totals,\n    names='Category',\n    values='Revenue',\n    title='Annual Revenue Share by Product Category',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Pastel,\n    hole=0.4\n)\n\nfig2.update_traces(textposition='outside', textinfo='percent+label')\nfig2.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18\n)\n\nfig2.show()\n\n\n                            \n                                            \nElectronics dominates total revenue, contributing over 37% of annual sales."
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#regional-performance",
+    "href": "projects/list/sales-revenue-analysis.html#regional-performance",
+    "title": "Sales Revenue Analysis",
+    "section": "Regional Performance",
+    "text": "Regional Performance\n\n\nCode\nregional = df.groupby(['Region', 'Category'])['Revenue'].sum().reset_index()\n\nfig3 = px.bar(\n    regional,\n    x='Region',\n    y='Revenue',\n    color='Category',\n    barmode='group',\n    title='Revenue by Region and Category',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Set2,\n    text_auto='.2s'\n)\n\nfig3.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18,\n    yaxis_tickprefix='€',\n    xaxis_title='Region',\n    yaxis_title='Revenue (€)',\n    legend_title='Category'\n)\n\nfig3.show()\n\n\n                            \n                                            \nDublin leads in all categories. Cork performs strongly in Food & Beverage. Galway shows growth potential."
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#simple-revenue-forecast-next-3-months",
+    "href": "projects/list/sales-revenue-analysis.html#simple-revenue-forecast-next-3-months",
+    "title": "Sales Revenue Analysis",
+    "section": "Simple Revenue Forecast (Next 3 Months)",
+    "text": "Simple Revenue Forecast (Next 3 Months)\n\n\nCode\nmonthly['Rolling_Avg'] = monthly['Revenue'].rolling(3).mean()\n\nforecast_months = pd.date_range(start='2025-01-01', periods=3, freq='MS')\nlast_avg = monthly['Rolling_Avg'].iloc[-1]\ngrowth_rate = 0.02\nforecast_values = [last_avg * (1 + growth_rate) ** i for i in range(1, 4)]\n\nforecast_df = pd.DataFrame({'Month': forecast_months, 'Revenue': forecast_values})\nforecast_df['Type'] = 'Forecast'\nmonthly['Type'] = 'Actual'\n\ncombined = pd.concat([monthly[['Month', 'Revenue', 'Type']], forecast_df])\n\nfig4 = px.line(\n    combined,\n    x='Month',\n    y='Revenue',\n    color='Type',\n    markers=True,\n    title='Revenue Trend with 3-Month Forecast',\n    template='plotly_white',\n    color_discrete_map={'Actual': '#2980b9', 'Forecast': '#e74c3c'}\n)\n\nfig4.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18,\n    yaxis_tickprefix='€',\n    hovermode='x unified'\n)\n\nfig4.show()\n\n\n                            \n                                            \n3-month revenue forecast using rolling average trend — projected Q1 2025 growth of approximately 6%."
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#summary",
+    "href": "projects/list/sales-revenue-analysis.html#summary",
+    "title": "Sales Revenue Analysis",
+    "section": "Summary",
+    "text": "Summary\n\nTotal 2024 Revenue: ~€4.2M across all regions and categories\nTop Category: Electronics (37% share)\nTop Region: Dublin, followed by Cork\nForecast: Modest Q1 2025 growth projected at ~2% month-on-month\n\n\n\n\n\n\n\nTipBusiness Recommendation\n\n\n\nInvest in Electronics inventory heading into Q2, where seasonal demand peaks. Cork’s Food & Beverage performance suggests a targeted regional marketing opportunity.\n\n\n\nAnalysis by Gnanesh Reddy · MSc Business Analytics, DCU · 20251"
+  },
+  {
+    "objectID": "projects/list/sales-revenue-analysis.html#footnotes",
+    "href": "projects/list/sales-revenue-analysis.html#footnotes",
+    "title": "Sales Revenue Analysis",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nDataset is synthetic. Methodology follows standard retail analytics practice using rolling averages for short-term forecasting.↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gnanesh Reddy",
+    "section": "",
+    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Gnanesh Reddy",
+    "section": "",
+    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Gnanesh Reddy",
+    "section": "What I Do",
+    "text": "What I Do\nI work with Python, SQL, and data visualisation tools to analyse complex datasets — from stock market trends to sales performance — and present findings that drive real decisions."
+  },
+  {
+    "objectID": "index.html#currently",
+    "href": "index.html#currently",
+    "title": "Gnanesh Reddy",
+    "section": "Currently",
+    "text": "Currently\n\n📚 MSc Business Analytics — Dublin City University\n📊 Building data pipelines and interactive dashboards\n🔍 Exploring financial analytics and forecasting models\n\n\n\n\n\n\n\nNoteOpen to Opportunities\n\n\n\nI am actively looking for data analyst and business intelligence roles. Feel free to reach out."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am Gnanesh Reddy, a postgraduate student pursuing an MSc in Business Analytics at Dublin City University, Ireland. My academic journey began with a strong foundation in business and quantitative methods, and has since evolved into a focused specialisation in data-driven decision making.\nBefore joining DCU, I developed an interest in how organisations use data to gain competitive advantage — particularly in financial markets and retail operations. That curiosity is what drives my work today."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "I am Gnanesh Reddy, a postgraduate student pursuing an MSc in Business Analytics at Dublin City University, Ireland. My academic journey began with a strong foundation in business and quantitative methods, and has since evolved into a focused specialisation in data-driven decision making.\nBefore joining DCU, I developed an interest in how organisations use data to gain competitive advantage — particularly in financial markets and retail operations. That curiosity is what drives my work today."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About Me",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nCategory\nTools & Technologies\n\n\n\n\nProgramming\nPython (pandas, NumPy, Plotly, scikit-learn)\n\n\nData & Databases\nSQL, Excel, Google Sheets\n\n\nVisualisation\nPlotly, Matplotlib, Power BI\n\n\nVersion Control\nGit, GitHub\n\n\nWeb & Publishing\nQuarto, HTML, CSS, SCSS\n\n\nAnalytics\nForecasting, EDA, Statistical Modelling"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nMSc Business Analytics Dublin City University · 2024–2025\nBachelor’s Degree [Your undergraduate degree and institution here]"
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\nMy immediate goal is to apply my analytical skills in a graduate data analyst or business intelligence role, where I can contribute to decision-making through rigorous data analysis. Longer term, I aim to work in financial analytics or strategy consulting, using data to inform high-stakes business decisions.\n\n\n\n\n\n\nTipFun Fact\n\n\n\nI find financial markets fascinating — not just for the numbers, but for what they reveal about human behaviour and collective decision-making."
+  },
+  {
+    "objectID": "about.html#outside-of-work",
+    "href": "about.html#outside-of-work",
+    "title": "About Me",
+    "section": "Outside of Work",
+    "text": "Outside of Work\nWhen I’m not working with data, I enjoy following financial markets, reading about macroeconomics, and exploring Dublin."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & References",
+    "section": "",
+    "text": "I am always open to discussing data analytics, graduate opportunities, or project collaborations. The best way to reach me is by email.\n\n\n\nMethod\nDetails\n\n\n\n\n Email\ngnanesh.reddy2@mail.dcu.ie\n\n\n LinkedIn\nlinkedin.com/in/gnaneshreddy16\n\n\n GitHub\ngithub.com/gnaneshreddy16-tech\n\n\n Location\nDublin, Ireland\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nI typically respond to emails within 24–48 hours."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact & References",
+    "section": "",
+    "text": "I am always open to discussing data analytics, graduate opportunities, or project collaborations. The best way to reach me is by email.\n\n\n\nMethod\nDetails\n\n\n\n\n Email\ngnanesh.reddy2@mail.dcu.ie\n\n\n LinkedIn\nlinkedin.com/in/gnaneshreddy16\n\n\n GitHub\ngithub.com/gnaneshreddy16-tech\n\n\n Location\nDublin, Ireland\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nI typically respond to emails within 24–48 hours."
+  },
+  {
+    "objectID": "contact.html#professional-references",
+    "href": "contact.html#professional-references",
+    "title": "Contact & References",
+    "section": "Professional References",
+    "text": "Professional References\nReferences are available upon request. Please contact me directly via email and I will provide details relevant to the role or context.\n\nThis portfolio was built with Quarto, managed with Git, and published via GitHub Pages."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Gnanesh Reddy",
+    "section": "",
+    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
+  },
+  {
+    "objectID": "projects/index.html#welcome",
+    "href": "projects/index.html#welcome",
+    "title": "Gnanesh Reddy",
+    "section": "",
+    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
+  },
+  {
+    "objectID": "projects/index.html#what-i-do",
+    "href": "projects/index.html#what-i-do",
+    "title": "Gnanesh Reddy",
+    "section": "What I Do",
+    "text": "What I Do\nI work with Python, SQL, and data visualisation tools to analyse complex datasets — from stock market trends to sales performance — and present findings that drive real decisions."
+  },
+  {
+    "objectID": "projects/index.html#currently",
+    "href": "projects/index.html#currently",
+    "title": "Gnanesh Reddy",
+    "section": "Currently",
+    "text": "Currently\n\n📚 MSc Business Analytics — Dublin City University\n📊 Building data pipelines and interactive dashboards\n🔍 Exploring financial analytics and forecasting models\n\n\n\n\n\n\n\nNoteOpen to Opportunities\n\n\n\nI am actively looking for data analyst and business intelligence roles. Feel free to reach out."
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html",
+    "href": "projects/list/stock-market-trends.html",
+    "title": "Stock Market Trend Analysis",
+    "section": "",
+    "text": "This project analyses simulated S&P 500 sector performance data to identify trends, compare volatility across sectors, and visualise cumulative returns over a 12-month period. The goal is to demonstrate how Python can replace manual spreadsheet analysis for financial decision-making.\n\n\n\n\n\n\nNoteDataset\n\n\n\nThis project uses synthetically generated data modelled on realistic sector return distributions. In a production setting, this pipeline would connect to a financial API such as Yahoo Finance or Alpha Vantage."
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#overview",
+    "href": "projects/list/stock-market-trends.html#overview",
+    "title": "Stock Market Trend Analysis",
+    "section": "",
+    "text": "This project analyses simulated S&P 500 sector performance data to identify trends, compare volatility across sectors, and visualise cumulative returns over a 12-month period. The goal is to demonstrate how Python can replace manual spreadsheet analysis for financial decision-making.\n\n\n\n\n\n\nNoteDataset\n\n\n\nThis project uses synthetically generated data modelled on realistic sector return distributions. In a production setting, this pipeline would connect to a financial API such as Yahoo Finance or Alpha Vantage."
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#setup-and-data-generation",
+    "href": "projects/list/stock-market-trends.html#setup-and-data-generation",
+    "title": "Stock Market Trend Analysis",
+    "section": "Setup and Data Generation",
+    "text": "Setup and Data Generation\n\n\nCode\nimport pandas as pd\nimport numpy as np\nimport plotly.express as px\nimport plotly.graph_objects as go\nfrom plotly.subplots import make_subplots\n\nnp.random.seed(42)\n\nsectors = ['Technology', 'Finance', 'Healthcare', 'Energy', 'Consumer']\nmonths = pd.date_range(start='2024-01-01', periods=12, freq='MS')\n\n# Simulate monthly returns (percent)\nreturns_data = {\n    'Technology': [3.2, -1.1, 4.5, 2.8, -0.9, 5.1, 1.3, 3.7, -2.1, 4.2, 2.9, 6.1],\n    'Finance':    [1.8, 0.5, 2.1, -0.7, 1.9, 2.4, 0.8, 1.5, 2.2, -1.1, 3.1, 1.7],\n    'Healthcare': [0.9, 1.4, -0.3, 2.1, 1.1, 0.7, 2.3, 1.8, 0.5, 2.6, 1.2, 1.9],\n    'Energy':     [-2.1, 3.4, 1.7, -1.2, 4.1, -0.8, 2.9, -1.5, 3.2, 1.1, -0.6, 2.3],\n    'Consumer':   [1.1, 0.8, 1.9, 1.3, 0.4, 1.7, 0.9, 2.1, 1.4, 0.6, 2.3, 1.5]\n}\n\ndf_returns = pd.DataFrame(returns_data, index=months)\ndf_returns.index.name = 'Date'\n\nprint(\"Monthly Returns Summary:\")\nprint(df_returns.describe().round(2))\n\n\nMonthly Returns Summary:\n       Technology  Finance  Healthcare  Energy  Consumer\ncount       12.00    12.00       12.00   12.00     12.00\nmean         2.47     1.35        1.35    1.04      1.33\nstd          2.63     1.26        0.84    2.18      0.60\nmin         -2.10    -1.10       -0.30   -2.10      0.40\n25%          0.75     0.73        0.85   -0.90      0.88\n50%          3.05     1.75        1.30    1.40      1.35\n75%          4.28     2.12        1.95    2.98      1.75\nmax          6.10     3.10        2.60    4.10      2.30"
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#monthly-returns-by-sector",
+    "href": "projects/list/stock-market-trends.html#monthly-returns-by-sector",
+    "title": "Stock Market Trend Analysis",
+    "section": "Monthly Returns by Sector",
+    "text": "Monthly Returns by Sector\n\n\nCode\ndf_melted = df_returns.reset_index().melt(id_vars='Date', var_name='Sector', value_name='Return (%)')\n\nfig = px.line(\n    df_melted,\n    x='Date',\n    y='Return (%)',\n    color='Sector',\n    markers=True,\n    title='Monthly Sector Returns — 2024',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Set2\n)\n\nfig.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18,\n    legend_title_text='Sector',\n    xaxis_title='Month',\n    yaxis_title='Return (%)',\n    hovermode='x unified'\n)\n\nfig.show()\n\n\n                            \n                                            \nMonthly returns (%) across five S&P 500 sectors — January to December 2024"
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#cumulative-returns",
+    "href": "projects/list/stock-market-trends.html#cumulative-returns",
+    "title": "Stock Market Trend Analysis",
+    "section": "Cumulative Returns",
+    "text": "Cumulative Returns\n\n\nCode\ndf_cumulative = (1 + df_returns / 100).cumprod() - 1\ndf_cumulative = df_cumulative * 100\n\ndf_cum_melted = df_cumulative.reset_index().melt(id_vars='Date', var_name='Sector', value_name='Cumulative Return (%)')\n\nfig2 = px.area(\n    df_cum_melted,\n    x='Date',\n    y='Cumulative Return (%)',\n    color='Sector',\n    title='Cumulative Sector Returns — 2024',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Set2\n)\n\nfig2.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18,\n    hovermode='x unified'\n)\n\nfig2.show()\n\n\n                            \n                                            \nCumulative returns show Technology significantly outperforming other sectors by year-end."
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#volatility-comparison",
+    "href": "projects/list/stock-market-trends.html#volatility-comparison",
+    "title": "Stock Market Trend Analysis",
+    "section": "Volatility Comparison",
+    "text": "Volatility Comparison\n\n\nCode\nvolatility = df_returns.std().reset_index()\nvolatility.columns = ['Sector', 'Volatility (std dev)']\nmean_return = df_returns.mean().reset_index()\nmean_return.columns = ['Sector', 'Mean Monthly Return (%)']\n\nsummary = volatility.merge(mean_return, on='Sector')\n\nfig3 = px.scatter(\n    summary,\n    x='Volatility (std dev)',\n    y='Mean Monthly Return (%)',\n    text='Sector',\n    size='Mean Monthly Return (%)',\n    color='Sector',\n    title='Risk vs Return by Sector',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Set2\n)\n\nfig3.update_traces(textposition='top center')\nfig3.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18,\n    showlegend=False\n)\n\nfig3.show()\n\n\n                            \n                                            \nTechnology shows the highest return but also the highest volatility — a classic risk/return tradeoff."
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#key-findings",
+    "href": "projects/list/stock-market-trends.html#key-findings",
+    "title": "Stock Market Trend Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n\n\nSector\nMean Monthly Return\nVolatility\n12-Month Cumulative\n\n\n\n\nTechnology\nHighest\nHighest\n~31%\n\n\nFinance\nModerate\nLow\n~18%\n\n\nHealthcare\nStable\nLowest\n~16%\n\n\nEnergy\nVariable\nHigh\n~12%\n\n\nConsumer\nConsistent\nLow\n~17%\n\n\n\n\n\n\n\n\n\nTipBusiness Insight\n\n\n\nFor a risk-averse investor, Healthcare and Consumer sectors offer consistent, low-volatility returns. For growth-focused portfolios, Technology delivers superior cumulative returns despite short-term swings."
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#conclusion",
+    "href": "projects/list/stock-market-trends.html#conclusion",
+    "title": "Stock Market Trend Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis analysis demonstrates how Python and Plotly can automate sector performance reporting that would otherwise require manual Excel work. The same pipeline scales to live data with minimal modification — replacing the synthetic dataset with API calls to a financial data provider.\n\nCode written by Gnanesh Reddy. Dataset is synthetically generated for academic purposes.1"
+  },
+  {
+    "objectID": "projects/list/stock-market-trends.html#footnotes",
+    "href": "projects/list/stock-market-trends.html#footnotes",
+    "title": "Stock Market Trend Analysis",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIn a production environment, this analysis would use live data from Yahoo Finance or Alpha Vantage.↩︎"
+  }
+]
