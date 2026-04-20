@@ -21,19 +21,55 @@ about:
 
 ## Welcome
 
-I'm a Business Analytics postgraduate student at **Dublin City University**, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication.
+I am Gnanesh Reddy, a Business Analytics postgraduate student at **Dublin City University**, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication.
 
-## What I Do
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Quarto](https://img.shields.io/badge/Quarto-75AADB?style=flat&logo=quarto&logoColor=white)
 
-I work with Python, SQL, and data visualisation tools to analyse complex datasets — from stock market trends to sales performance — and present findings that drive real decisions.
+---
 
-## Currently
+::: {.panel-tabset}
 
-- 📚 MSc Business Analytics — Dublin City University
-- 📊 Building data pipelines and interactive dashboards
-- 🔍 Exploring financial analytics and forecasting models
+## {{< fa briefcase >}} For Recruiters
+
+I am immediately available for **data analyst** and **business intelligence** roles. My projects demonstrate hands-on experience with Python, financial modelling, and interactive data visualisation.
+
+**What I bring:**
+
+| Skill | Evidence |
+|---|---|
+| Python (pandas, Plotly) | Three live projects with executable code |
+| Financial Analytics | Stock market trend analysis with risk/return modelling |
+| Business Intelligence | Sales revenue analysis with forecasting |
+| Machine Learning | Customer segmentation using K-means clustering |
+| Version Control | Full Git history with descriptive commits |
+| Communication | This portfolio — built from scratch with Quarto |
+
+[{{< fa file-pdf >}} Download CV](cv/cv.pdf){target="_blank" .btn .btn-primary}
+[{{< fa chart-bar >}} View Projects](projects/index.qmd){.btn .btn-outline-secondary}
+
+## {{< fa graduation-cap >}} For Academic Readers
+
+This portfolio documents my MSc journey at Dublin City University, covering technical skill development in Python, Git, Quarto, and statistical analysis. It serves as both a learning record and a professional showcase.
+
+**Module Learning Outcomes Demonstrated:**
+
+- Reproducible analysis using Quarto and executable Python chunks
+- Version-controlled development with meaningful Git commit history
+- Web publishing via GitHub Pages with custom SCSS theming
+- Critical reflection on skill development and professional growth
+
+[{{< fa book-open >}} Read Reflection](reflection.qmd){.btn .btn-primary}
+[{{< fa info-circle >}} About Me](about.qmd){.btn .btn-outline-secondary}
+
+:::
+
+---
 
 ::: {.callout-note}
-## Open to Opportunities
-I am actively looking for data analyst and business intelligence roles. Feel free to [reach out](contact.qmd).
+## Currently Open to Opportunities
+I am actively looking for data analyst and business intelligence roles in Ireland. Feel free to [get in touch](contact.qmd).
 :::

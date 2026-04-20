@@ -119,97 +119,6 @@
     "text": "Footnotes\n\n\nDataset is synthetic. Methodology follows standard retail analytics practice using rolling averages for short-term forecasting.↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Gnanesh Reddy",
-    "section": "",
-    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Gnanesh Reddy",
-    "section": "",
-    "text": "I’m a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication."
-  },
-  {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Gnanesh Reddy",
-    "section": "What I Do",
-    "text": "What I Do\nI work with Python, SQL, and data visualisation tools to analyse complex datasets — from stock market trends to sales performance — and present findings that drive real decisions."
-  },
-  {
-    "objectID": "index.html#currently",
-    "href": "index.html#currently",
-    "title": "Gnanesh Reddy",
-    "section": "Currently",
-    "text": "Currently\n\n📚 MSc Business Analytics — Dublin City University\n📊 Building data pipelines and interactive dashboards\n🔍 Exploring financial analytics and forecasting models\n\n\n\n\n\n\n\nNoteOpen to Opportunities\n\n\n\nI am actively looking for data analyst and business intelligence roles. Feel free to reach out."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I am Gnanesh Reddy, a postgraduate student pursuing an MSc in Business Analytics at Dublin City University, Ireland. My academic journey began with a strong foundation in business and quantitative methods, and has since evolved into a focused specialisation in data-driven decision making.\nBefore joining DCU, I developed an interest in how organisations use data to gain competitive advantage — particularly in financial markets and retail operations. That curiosity is what drives my work today."
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About Me",
-    "section": "",
-    "text": "I am Gnanesh Reddy, a postgraduate student pursuing an MSc in Business Analytics at Dublin City University, Ireland. My academic journey began with a strong foundation in business and quantitative methods, and has since evolved into a focused specialisation in data-driven decision making.\nBefore joining DCU, I developed an interest in how organisations use data to gain competitive advantage — particularly in financial markets and retail operations. That curiosity is what drives my work today."
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About Me",
-    "section": "Skills",
-    "text": "Skills\n\n\n\nCategory\nTools & Technologies\n\n\n\n\nProgramming\nPython (pandas, NumPy, Plotly, scikit-learn)\n\n\nData & Databases\nSQL, Excel, Google Sheets\n\n\nVisualisation\nPlotly, Matplotlib, Power BI\n\n\nVersion Control\nGit, GitHub\n\n\nWeb & Publishing\nQuarto, HTML, CSS, SCSS\n\n\nAnalytics\nForecasting, EDA, Statistical Modelling"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\nMSc Business Analytics Dublin City University · 2024–2025\nBachelor’s Degree [Your undergraduate degree and institution here]"
-  },
-  {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
-    "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\nMy immediate goal is to apply my analytical skills in a graduate data analyst or business intelligence role, where I can contribute to decision-making through rigorous data analysis. Longer term, I aim to work in financial analytics or strategy consulting, using data to inform high-stakes business decisions.\n\n\n\n\n\n\nTipFun Fact\n\n\n\nI find financial markets fascinating — not just for the numbers, but for what they reveal about human behaviour and collective decision-making."
-  },
-  {
-    "objectID": "about.html#outside-of-work",
-    "href": "about.html#outside-of-work",
-    "title": "About Me",
-    "section": "Outside of Work",
-    "text": "Outside of Work\nWhen I’m not working with data, I enjoy following financial markets, reading about macroeconomics, and exploring Dublin."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact & References",
-    "section": "",
-    "text": "I am always open to discussing data analytics, graduate opportunities, or project collaborations. The best way to reach me is by email.\n\n\n\nMethod\nDetails\n\n\n\n\n Email\ngnanesh.reddy2@mail.dcu.ie\n\n\n LinkedIn\nlinkedin.com/in/gnaneshreddy16\n\n\n GitHub\ngithub.com/gnaneshreddy16-tech\n\n\n Location\nDublin, Ireland\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nI typically respond to emails within 24–48 hours."
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact & References",
-    "section": "",
-    "text": "I am always open to discussing data analytics, graduate opportunities, or project collaborations. The best way to reach me is by email.\n\n\n\nMethod\nDetails\n\n\n\n\n Email\ngnanesh.reddy2@mail.dcu.ie\n\n\n LinkedIn\nlinkedin.com/in/gnaneshreddy16\n\n\n GitHub\ngithub.com/gnaneshreddy16-tech\n\n\n Location\nDublin, Ireland\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nI typically respond to emails within 24–48 hours."
-  },
-  {
-    "objectID": "contact.html#professional-references",
-    "href": "contact.html#professional-references",
-    "title": "Contact & References",
-    "section": "Professional References",
-    "text": "Professional References\nReferences are available upon request. Please contact me directly via email and I will provide details relevant to the role or context.\n\nThis portfolio was built with Quarto, managed with Git, and published via GitHub Pages."
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Gnanesh Reddy",
@@ -236,6 +145,174 @@
     "title": "Gnanesh Reddy",
     "section": "Currently",
     "text": "Currently\n\n📚 MSc Business Analytics — Dublin City University\n📊 Building data pipelines and interactive dashboards\n🔍 Exploring financial analytics and forecasting models\n\n\n\n\n\n\n\nNoteOpen to Opportunities\n\n\n\nI am actively looking for data analyst and business intelligence roles. Feel free to reach out."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & References",
+    "section": "",
+    "text": "I am always open to discussing data analytics, graduate opportunities, or project collaborations. The best way to reach me is by email.\n\n\n\nMethod\nDetails\n\n\n\n\n Email\ngnanesh.reddy2@mail.dcu.ie\n\n\n LinkedIn\nlinkedin.com/in/gnaneshreddy16\n\n\n GitHub\ngithub.com/gnaneshreddy16-tech\n\n\n Location\nDublin, Ireland\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nI typically respond to emails within 24–48 hours."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact & References",
+    "section": "",
+    "text": "I am always open to discussing data analytics, graduate opportunities, or project collaborations. The best way to reach me is by email.\n\n\n\nMethod\nDetails\n\n\n\n\n Email\ngnanesh.reddy2@mail.dcu.ie\n\n\n LinkedIn\nlinkedin.com/in/gnaneshreddy16\n\n\n GitHub\ngithub.com/gnaneshreddy16-tech\n\n\n Location\nDublin, Ireland\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nI typically respond to emails within 24–48 hours."
+  },
+  {
+    "objectID": "contact.html#professional-references",
+    "href": "contact.html#professional-references",
+    "title": "Contact & References",
+    "section": "Professional References",
+    "text": "Professional References\nReferences are available upon request. Please contact me directly via email and I will provide details relevant to the role or context.\n\nThis portfolio was built with Quarto, managed with Git, and published via GitHub Pages."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am Gnanesh Reddy, a postgraduate student pursuing an MSc in Business Analytics at Dublin City University, Ireland. My academic journey began with a strong foundation in business and quantitative methods, and has since evolved into a focused specialisation in data-driven decision making.\nBefore joining DCU, I developed an interest in how organisations use data to gain competitive advantage — particularly in financial markets and retail operations. That curiosity is what drives my work today."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "I am Gnanesh Reddy, a postgraduate student pursuing an MSc in Business Analytics at Dublin City University, Ireland. My academic journey began with a strong foundation in business and quantitative methods, and has since evolved into a focused specialisation in data-driven decision making.\nBefore joining DCU, I developed an interest in how organisations use data to gain competitive advantage — particularly in financial markets and retail operations. That curiosity is what drives my work today."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About Me",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nCategory\nTools & Technologies\n\n\n\n\nProgramming\nPython (pandas, NumPy, Plotly, scikit-learn)\n\n\nData & Databases\nSQL, Excel, Google Sheets\n\n\nVisualisation\nPlotly, Matplotlib, Power BI\n\n\nVersion Control\nGit, GitHub\n\n\nWeb & Publishing\nQuarto, HTML, CSS, SCSS\n\n\nAnalytics\nForecasting, EDA, Statistical Modelling"
+  },
+  {
+    "objectID": "about.html#proficiency",
+    "href": "about.html#proficiency",
+    "title": "About Me",
+    "section": "Proficiency",
+    "text": "Proficiency\n\n\nPython & pandas\n\n&lt;div style=\"background:#2980b9;width:85%;height:12px;border-radius:8px\"&gt;&lt;/div&gt;\n\n\n\nData Visualisation (Plotly)\n\n&lt;div style=\"background:#2980b9;width:80%;height:12px;border-radius:8px\"&gt;&lt;/div&gt;\n\n\n\nSQL\n\n&lt;div style=\"background:#2980b9;width:75%;height:12px;border-radius:8px\"&gt;&lt;/div&gt;\n\n\n\nGit & Version Control\n\n&lt;div style=\"background:#2980b9;width:78%;height:12px;border-radius:8px\"&gt;&lt;/div&gt;\n\n\n\nBusiness Intelligence\n\n&lt;div style=\"background:#2980b9;width:82%;height:12px;border-radius:8px\"&gt;&lt;/div&gt;"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nMSc Business Analytics Dublin City University · 2024–2025\nBachelor’s Degree [Your undergraduate degree and institution here]"
+  },
+  {
+    "objectID": "about.html#my-journey",
+    "href": "about.html#my-journey",
+    "title": "About Me",
+    "section": "My Journey",
+    "text": "My Journey\n\n\n\n\n\ntimeline\n    title Academic & Professional Journey\n    2021 : Started Bachelor's Degree\n         : Built foundation in Business\n    2023 : Graduated with Bachelor's Degree\n         : Began exploring data analytics\n    2024 : Joined DCU — MSc Business Analytics\n         : Started learning Python and Git\n    2025 : Built this ePortfolio\n         : Seeking graduate roles in Ireland"
+  },
+  {
+    "objectID": "about.html#featured-video",
+    "href": "about.html#featured-video",
+    "title": "About Me",
+    "section": "Featured Video",
+    "text": "Featured Video\nThis video covers Python for data analysis — the core toolkit used throughout my projects:"
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\nMy immediate goal is to apply my analytical skills in a graduate data analyst or business intelligence role, where I can contribute to decision-making through rigorous data analysis. Longer term, I aim to work in financial analytics or strategy consulting, using data to inform high-stakes business decisions.\n\n\n\n\n\n\nTipFun Fact\n\n\n\nI find financial markets fascinating — not just for the numbers, but for what they reveal about human behaviour and collective decision-making."
+  },
+  {
+    "objectID": "about.html#outside-of-work",
+    "href": "about.html#outside-of-work",
+    "title": "About Me",
+    "section": "Outside of Work",
+    "text": "Outside of Work\nWhen I am not working with data, I enjoy following financial markets, reading about macroeconomics, and exploring Dublin."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gnanesh Reddy",
+    "section": "",
+    "text": "I am Gnanesh Reddy, a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication.\n    \n\n\n For Recruiters For Academic Readers\n\n\nI am immediately available for data analyst and business intelligence roles. My projects demonstrate hands-on experience with Python, financial modelling, and interactive data visualisation.\nWhat I bring:\n\n\n\n\n\n\n\nSkill\nEvidence\n\n\n\n\nPython (pandas, Plotly)\nThree live projects with executable code\n\n\nFinancial Analytics\nStock market trend analysis with risk/return modelling\n\n\nBusiness Intelligence\nSales revenue analysis with forecasting\n\n\nMachine Learning\nCustomer segmentation using K-means clustering\n\n\nVersion Control\nFull Git history with descriptive commits\n\n\nCommunication\nThis portfolio — built from scratch with Quarto\n\n\n\n Download CV  View Projects\n\n\nThis portfolio documents my MSc journey at Dublin City University, covering technical skill development in Python, Git, Quarto, and statistical analysis. It serves as both a learning record and a professional showcase.\nModule Learning Outcomes Demonstrated:\n\nReproducible analysis using Quarto and executable Python chunks\nVersion-controlled development with meaningful Git commit history\nWeb publishing via GitHub Pages with custom SCSS theming\nCritical reflection on skill development and professional growth\n\n Read Reflection  About Me\n\n\n\n\n\n\n\n\n\n\nNoteCurrently Open to Opportunities\n\n\n\nI am actively looking for data analyst and business intelligence roles in Ireland. Feel free to get in touch."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Gnanesh Reddy",
+    "section": "",
+    "text": "I am Gnanesh Reddy, a Business Analytics postgraduate student at Dublin City University, passionate about transforming raw data into actionable business insights. My work sits at the intersection of financial data, statistical modelling, and clear communication.\n    \n\n\n For Recruiters For Academic Readers\n\n\nI am immediately available for data analyst and business intelligence roles. My projects demonstrate hands-on experience with Python, financial modelling, and interactive data visualisation.\nWhat I bring:\n\n\n\n\n\n\n\nSkill\nEvidence\n\n\n\n\nPython (pandas, Plotly)\nThree live projects with executable code\n\n\nFinancial Analytics\nStock market trend analysis with risk/return modelling\n\n\nBusiness Intelligence\nSales revenue analysis with forecasting\n\n\nMachine Learning\nCustomer segmentation using K-means clustering\n\n\nVersion Control\nFull Git history with descriptive commits\n\n\nCommunication\nThis portfolio — built from scratch with Quarto\n\n\n\n Download CV  View Projects\n\n\nThis portfolio documents my MSc journey at Dublin City University, covering technical skill development in Python, Git, Quarto, and statistical analysis. It serves as both a learning record and a professional showcase.\nModule Learning Outcomes Demonstrated:\n\nReproducible analysis using Quarto and executable Python chunks\nVersion-controlled development with meaningful Git commit history\nWeb publishing via GitHub Pages with custom SCSS theming\nCritical reflection on skill development and professional growth\n\n Read Reflection  About Me\n\n\n\n\n\n\n\n\n\n\nNoteCurrently Open to Opportunities\n\n\n\nI am actively looking for data analyst and business intelligence roles in Ireland. Feel free to get in touch."
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html",
+    "href": "projects/list/customer-segmentation.html",
+    "title": "Customer Segmentation Analysis",
+    "section": "",
+    "text": "This project applies K-means clustering to segment retail customers based on purchase frequency, recency, and spend — a classic RFM (Recency, Frequency, Monetary) analysis used widely in business intelligence and marketing strategy.\n\n\n\n\n\n\nNoteDataset\n\n\n\nSynthetically generated customer transaction data modelled on realistic retail distributions. The same pipeline applies directly to real CRM exports."
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#overview",
+    "href": "projects/list/customer-segmentation.html#overview",
+    "title": "Customer Segmentation Analysis",
+    "section": "",
+    "text": "This project applies K-means clustering to segment retail customers based on purchase frequency, recency, and spend — a classic RFM (Recency, Frequency, Monetary) analysis used widely in business intelligence and marketing strategy.\n\n\n\n\n\n\nNoteDataset\n\n\n\nSynthetically generated customer transaction data modelled on realistic retail distributions. The same pipeline applies directly to real CRM exports."
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#what-is-rfm-analysis",
+    "href": "projects/list/customer-segmentation.html#what-is-rfm-analysis",
+    "title": "Customer Segmentation Analysis",
+    "section": "What is RFM Analysis?",
+    "text": "What is RFM Analysis?\n\n\n\nMetric\nDefinition\nBusiness Meaning\n\n\n\n\nRecency\nDays since last purchase\nHow recently did they buy?\n\n\nFrequency\nNumber of purchases\nHow often do they buy?\n\n\nMonetary\nTotal spend\nHow much do they spend?"
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#data-generation-clustering",
+    "href": "projects/list/customer-segmentation.html#data-generation-clustering",
+    "title": "Customer Segmentation Analysis",
+    "section": "Data Generation & Clustering",
+    "text": "Data Generation & Clustering\n\n\nCode\nimport pandas as pd\nimport numpy as np\nimport plotly.express as px\nfrom sklearn.cluster import KMeans\nfrom sklearn.preprocessing import StandardScaler\n\nnp.random.seed(21)\nn = 200\n\ndf = pd.DataFrame({\n    'CustomerID': range(1, n+1),\n    'Recency':    np.random.randint(1, 365, n),\n    'Frequency':  np.random.randint(1, 50, n),\n    'Monetary':   np.random.randint(100, 5000, n)\n})\n\nscaler = StandardScaler()\nscaled = scaler.fit_transform(df[['Recency', 'Frequency', 'Monetary']])\n\nkmeans = KMeans(n_clusters=4, random_state=42, n_init=10)\ndf['Segment'] = kmeans.fit_predict(scaled)\n\nsegment_names = {0: 'High Value', 1: 'At Risk', 2: 'Loyal', 3: 'New Customers'}\ndf['Segment'] = df['Segment'].map(segment_names)\n\nprint(\"Segment Averages:\")\nprint(df.groupby('Segment')[['Recency', 'Frequency', 'Monetary']].mean().round(1))\n\n\nSegment Averages:\n               Recency  Frequency  Monetary\nSegment                                    \nAt Risk          238.7       16.2     891.5\nHigh Value       239.4       14.3    3960.9\nLoyal            265.4       39.7    2347.5\nNew Customers     71.8       29.2    2797.5"
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#d-segment-visualisation",
+    "href": "projects/list/customer-segmentation.html#d-segment-visualisation",
+    "title": "Customer Segmentation Analysis",
+    "section": "3D Segment Visualisation",
+    "text": "3D Segment Visualisation\n\n\nCode\nfig = px.scatter_3d(\n    df,\n    x='Recency',\n    y='Frequency',\n    z='Monetary',\n    color='Segment',\n    title='Customer Segments — RFM Clustering',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Set2,\n    opacity=0.75\n)\n\nfig.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18\n)\n\nfig.show()\n\n\n                            \n                                            \nFour distinct customer segments identified by K-means clustering across Recency, Frequency, and Monetary dimensions."
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#average-spend-by-segment",
+    "href": "projects/list/customer-segmentation.html#average-spend-by-segment",
+    "title": "Customer Segmentation Analysis",
+    "section": "Average Spend by Segment",
+    "text": "Average Spend by Segment\n\n\nCode\nsummary = df.groupby('Segment')['Monetary'].mean().reset_index()\nsummary.columns = ['Segment', 'Avg Spend (€)']\nsummary = summary.sort_values('Avg Spend (€)', ascending=False)\n\nfig2 = px.bar(\n    summary,\n    x='Segment',\n    y='Avg Spend (€)',\n    color='Segment',\n    title='Average Spend by Customer Segment',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Set2,\n    text_auto='.0f'\n)\n\nfig2.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18,\n    showlegend=False,\n    yaxis_tickprefix='€'\n)\n\nfig2.show()\n\n\n                            \n                                            \nHigh Value customers spend on average 4x more than New Customers — prioritising retention efforts is critical."
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#segment-size-distribution",
+    "href": "projects/list/customer-segmentation.html#segment-size-distribution",
+    "title": "Customer Segmentation Analysis",
+    "section": "Segment Size Distribution",
+    "text": "Segment Size Distribution\n\n\nCode\nsize = df['Segment'].value_counts().reset_index()\nsize.columns = ['Segment', 'Count']\n\nfig3 = px.pie(\n    size,\n    names='Segment',\n    values='Count',\n    title='Customer Segment Distribution',\n    template='plotly_white',\n    color_discrete_sequence=px.colors.qualitative.Set2,\n    hole=0.4\n)\n\nfig3.update_traces(textposition='outside', textinfo='percent+label')\nfig3.update_layout(\n    font_family='Source Sans 3',\n    title_font_size=18\n)\n\nfig3.show()\n\n\n                            \n                                            \nSegment distribution — understanding the size of each group informs resource allocation for marketing campaigns."
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#business-recommendations",
+    "href": "projects/list/customer-segmentation.html#business-recommendations",
+    "title": "Customer Segmentation Analysis",
+    "section": "Business Recommendations",
+    "text": "Business Recommendations\n\n\n\n\n\n\nTipStrategic Actions by Segment\n\n\n\n\n High Value — Reward with a loyalty programme and early access offers\n At Risk — Target with a win-back email campaign and discount incentives\n Loyal — Upsell premium products and cross-sell complementary items\n New Customers — Onboarding discount to increase purchase frequency"
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#key-findings",
+    "href": "projects/list/customer-segmentation.html#key-findings",
+    "title": "Customer Segmentation Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nK-means successfully identifies four behavioural clusters from RFM features\nHigh Value customers represent the smallest segment but drive the most revenue\nAt Risk customers require immediate re-engagement to prevent churn\nThis analysis scales directly to real CRM data with minimal modification\n\n\nAnalysis by Gnanesh Reddy · MSc Business Analytics, DCU · 20251"
+  },
+  {
+    "objectID": "projects/list/customer-segmentation.html#footnotes",
+    "href": "projects/list/customer-segmentation.html#footnotes",
+    "title": "Customer Segmentation Analysis",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nDataset is synthetically generated. K-means clustering implemented using scikit-learn.↩︎"
   },
   {
     "objectID": "projects/list/stock-market-trends.html",

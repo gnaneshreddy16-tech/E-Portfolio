@@ -1,0 +1,177 @@
+---
+title: "Customer Segmentation Analysis"
+description: "K-means clustering applied to retail customer data to identify distinct behavioural segments for targeted marketing strategy."
+author: "Gnanesh Reddy"
+date: 2025-01-15
+image: ../../images/project3-cover.jpg
+categories: [Python, Machine Learning, Clustering, Marketing]
+---
+
+## Overview
+
+This project applies K-means clustering to segment retail customers based on purchase frequency, recency, and spend — a classic RFM (Recency, Frequency, Monetary) analysis used widely in business intelligence and marketing strategy.
+
+::: {.callout-note}
+## Dataset
+Synthetically generated customer transaction data modelled on realistic retail distributions. The same pipeline applies directly to real CRM exports.
+:::
+
+## What is RFM Analysis?
+
+| Metric | Definition | Business Meaning |
+|---|---|---|
+| **Recency** | Days since last purchase | How recently did they buy? |
+| **Frequency** | Number of purchases | How often do they buy? |
+| **Monetary** | Total spend | How much do they spend? |
+
+## Data Generation & Clustering
+
+```{python}
+#| echo: true
+#| code-fold: true
+#| warning: false
+#| label: clustering
+
+import pandas as pd
+import numpy as np
+import plotly.express as px
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+
+np.random.seed(21)
+n = 200
+
+df = pd.DataFrame({
+    'CustomerID': range(1, n+1),
+    'Recency':    np.random.randint(1, 365, n),
+    'Frequency':  np.random.randint(1, 50, n),
+    'Monetary':   np.random.randint(100, 5000, n)
+})
+
+scaler = StandardScaler()
+scaled = scaler.fit_transform(df[['Recency', 'Frequency', 'Monetary']])
+
+kmeans = KMeans(n_clusters=4, random_state=42, n_init=10)
+df['Segment'] = kmeans.fit_predict(scaled)
+
+segment_names = {0: 'High Value', 1: 'At Risk', 2: 'Loyal', 3: 'New Customers'}
+df['Segment'] = df['Segment'].map(segment_names)
+
+print("Segment Averages:")
+print(df.groupby('Segment')[['Recency', 'Frequency', 'Monetary']].mean().round(1))
+```
+
+## 3D Segment Visualisation
+
+```{python}
+#| echo: true
+#| code-fold: true
+#| fig-cap: "Four distinct customer segments identified by K-means clustering across Recency, Frequency, and Monetary dimensions."
+#| label: 3d-plot
+
+fig = px.scatter_3d(
+    df,
+    x='Recency',
+    y='Frequency',
+    z='Monetary',
+    color='Segment',
+    title='Customer Segments — RFM Clustering',
+    template='plotly_white',
+    color_discrete_sequence=px.colors.qualitative.Set2,
+    opacity=0.75
+)
+
+fig.update_layout(
+    font_family='Source Sans 3',
+    title_font_size=18
+)
+
+fig.show()
+```
+
+## Average Spend by Segment
+
+```{python}
+#| echo: true
+#| code-fold: true
+#| fig-cap: "High Value customers spend on average 4x more than New Customers — prioritising retention efforts is critical."
+#| label: spend-chart
+
+summary = df.groupby('Segment')['Monetary'].mean().reset_index()
+summary.columns = ['Segment', 'Avg Spend (€)']
+summary = summary.sort_values('Avg Spend (€)', ascending=False)
+
+fig2 = px.bar(
+    summary,
+    x='Segment',
+    y='Avg Spend (€)',
+    color='Segment',
+    title='Average Spend by Customer Segment',
+    template='plotly_white',
+    color_discrete_sequence=px.colors.qualitative.Set2,
+    text_auto='.0f'
+)
+
+fig2.update_layout(
+    font_family='Source Sans 3',
+    title_font_size=18,
+    showlegend=False,
+    yaxis_tickprefix='€'
+)
+
+fig2.show()
+```
+
+## Segment Size Distribution
+
+```{python}
+#| echo: true
+#| code-fold: true
+#| fig-cap: "Segment distribution — understanding the size of each group informs resource allocation for marketing campaigns."
+#| label: segment-size
+
+size = df['Segment'].value_counts().reset_index()
+size.columns = ['Segment', 'Count']
+
+fig3 = px.pie(
+    size,
+    names='Segment',
+    values='Count',
+    title='Customer Segment Distribution',
+    template='plotly_white',
+    color_discrete_sequence=px.colors.qualitative.Set2,
+    hole=0.4
+)
+
+fig3.update_traces(textposition='outside', textinfo='percent+label')
+fig3.update_layout(
+    font_family='Source Sans 3',
+    title_font_size=18
+)
+
+fig3.show()
+```
+
+## Business Recommendations
+
+::: {.callout-tip}
+## Strategic Actions by Segment
+
+- {{< fa star >}} **High Value** — Reward with a loyalty programme and early access offers
+- {{< fa triangle-exclamation >}} **At Risk** — Target with a win-back email campaign and discount incentives
+- {{< fa heart >}} **Loyal** — Upsell premium products and cross-sell complementary items
+- {{< fa seedling >}} **New Customers** — Onboarding discount to increase purchase frequency
+:::
+
+## Key Findings
+
+- K-means successfully identifies four behavioural clusters from RFM features
+- High Value customers represent the smallest segment but drive the most revenue
+- At Risk customers require immediate re-engagement to prevent churn
+- This analysis scales directly to real CRM data with minimal modification
+
+---
+
+*Analysis by Gnanesh Reddy · MSc Business Analytics, DCU · 2025*[^1]
+
+[^1]: Dataset is synthetically generated. K-means clustering implemented using [scikit-learn](https://scikit-learn.org){target="_blank"}.

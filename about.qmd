@@ -19,6 +19,41 @@ Before joining DCU, I developed an interest in how organisations use data to gai
 | Web & Publishing | Quarto, HTML, CSS, SCSS |
 | Analytics | Forecasting, EDA, Statistical Modelling |
 
+## Proficiency
+
+::: {.skill-bars}
+<div style="margin-bottom:1rem">
+  <strong>Python & pandas</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
+    <div style="background:#2980b9;width:85%;height:12px;border-radius:8px"></div>
+  </div>
+</div>
+<div style="margin-bottom:1rem">
+  <strong>Data Visualisation (Plotly)</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
+    <div style="background:#2980b9;width:80%;height:12px;border-radius:8px"></div>
+  </div>
+</div>
+<div style="margin-bottom:1rem">
+  <strong>SQL</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
+    <div style="background:#2980b9;width:75%;height:12px;border-radius:8px"></div>
+  </div>
+</div>
+<div style="margin-bottom:1rem">
+  <strong>Git & Version Control</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
+    <div style="background:#2980b9;width:78%;height:12px;border-radius:8px"></div>
+  </div>
+</div>
+<div style="margin-bottom:1rem">
+  <strong>Business Intelligence</strong>
+  <div style="background:#e9ecef;border-radius:8px;height:12px;margin-top:4px">
+    <div style="background:#2980b9;width:82%;height:12px;border-radius:8px"></div>
+  </div>
+</div>
+:::
+
 ## Education
 
 **MSc Business Analytics**
@@ -26,6 +61,27 @@ Dublin City University · 2024–2025
 
 **Bachelor's Degree**
 [Your undergraduate degree and institution here]
+
+## My Journey
+
+```{mermaid}
+timeline
+    title Academic & Professional Journey
+    2021 : Started Bachelor's Degree
+         : Built foundation in Business
+    2023 : Graduated with Bachelor's Degree
+         : Began exploring data analytics
+    2024 : Joined DCU — MSc Business Analytics
+         : Started learning Python and Git
+    2025 : Built this ePortfolio
+         : Seeking graduate roles in Ireland
+```
+
+## Featured Video
+
+This video covers Python for data analysis — the core toolkit used throughout my projects:
+
+{{< video https://www.youtube.com/watch?v=r-uOLxNrNk8 >}}
 
 ## Goals
 
@@ -38,4 +94,4 @@ I find financial markets fascinating — not just for the numbers, but for what 
 
 ## Outside of Work
 
-When I'm not working with data, I enjoy following financial markets, reading about macroeconomics, and exploring Dublin.
+When I am not working with data, I enjoy following financial markets, reading about macroeconomics, and exploring Dublin.
